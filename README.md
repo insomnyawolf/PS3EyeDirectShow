@@ -1,4 +1,17 @@
 # PS3EyeDirectShow
+
+## NOTICE
+
+I don't even know why i did this, but i felt that having an updated version of this could maybe be useful for someone, it has been much more painfull than what i'ld like to admit.
+
+I feel like i should tank [OpenTrack](https://github.com/opentrack/PS3EYEDriver) for their updated driver and [jkevin](https://github.com/jkevin/PS3EyeDirectShow) for the original version of this chaos, without them i couldn't have done anything at all.
+
+Probably this has some bugs and a lot of chaos,later when all of this is sorted out, i may try to update this a bit so it get detected as a proper webcam by windows;
+
+But that's enough for today, to whoever is reading this, i wish you a great day !!
+
+## Rest of the things
+
 Windows DirectShow source filter for the PS3 Eye Camera via WinUSB (32 / 64 bit)
 
 This package is an extension of [https://github.com/inspirit/PS3EYEDriver/](https://github.com/inspirit/PS3EYEDriver/), which is itself a port of the PS3 Eye Linux driver to Windows. This project wraps that code into a DirectShow source filter so that it behaves like a USB camera with a native Windows driver. Any application that goes through the standard DirectShow API to connect to a webcam should (in theory) be able to use this driver. This code has only had limited testing so there may be compatibility issues with some apps.

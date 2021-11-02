@@ -166,6 +166,7 @@
       <PrecompiledHeaderFile />
       <PrecompiledHeaderOutputFile />
       <AdditionalIncludeDirectories>..\libusb\libusb;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <LanguageStandard>stdcpplatest</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -182,12 +183,8 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="..\PS3EYEDriver\src\ps3eye.h" />
-    <ClInclude Include="..\PS3EYEDriver\src\ps3eye_capi.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\PS3EYEDriver\src\ps3eye.cpp" />
-    <ClCompile Include="..\PS3EYEDriver\src\ps3eye_capi.cpp" />
+    <ClInclude Include="..\PS3EYEDriver\ps3eye.hpp" />
+    <ClCompile Include="..\PS3EYEDriver\ps3eye.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
